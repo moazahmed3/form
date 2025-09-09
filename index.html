@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assessment-2</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset
+        style="
+          background-color: rgba(165, 42, 42, 0.977);
+          color: rgb(137, 43, 226);
+        "
+      >
+        <legend style="background-color: rgb(43, 226, 76); color: #fff">
+          Person Data
+        </legend>
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <!--! name fieldset -->
+
+        <fieldset style="background-color: rgb(3, 120, 81)">
+          <legend style="background-color: blueviolet; color: #fff">
+            Your Name
+          </legend>
+          <table>
+            <tr>
+              <td><label for="fname">First Name</label></td>
+              <td>:</td>
+              <td>
+                <input type="text" name="fname" id="fname" />
+              </td>
+            </tr>
+            <tr>
+              <td><label for="secname">Second Name</label></td>
+              <td>:</td>
+              <td>
+                <input type="text" name="secname" id="secname" />
+              </td>
+            </tr>
+          </table>
+        </fieldset>
+
+        <br />
+        <br />
+        <!-- data user -->
+        <table>
+          <tr>
+            <td><label for="phone">your phone</label></td>
+            <td>:</td>
+            <td><input type="tel" name="phone" id="phone" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">your email</label></td>
+            <td>:</td>
+            <td><input type="email" name="email" id="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="passowrd">your password</label></td>
+            <td>:</td>
+            <td><input type="password" name="password" id="passowrd" /></td>
+          </tr>
+          <tr>
+            <td><label for="repassword">re password</label></td>
+            <td>:</td>
+            <td><input type="password" name="repassword" id="repassword" /></td>
+          </tr>
+        </table>
+
+        <br />
+        <br />
+        <br />
+        <!-- radio -->
+        <table>
+          <tr>
+            <td><label for="male">male</label></td>
+            <td>:</td>
+            <td><input type="radio" name="gender" value="male" id="male" /></td>
+          </tr>
+          <tr>
+            <td><label for="female">female</label></td>
+            <td>:</td>
+            <td>
+              <input type="radio" name="gender" value="female" id="female" />
+            </td>
+          </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+
+        <!-- checkbox  -->
+        <table>
+          <tr>
+            <td><label for="student">student</label></td>
+            <td>:</td>
+            <td>
+              <input type="checkbox" name="type" value="student" id="student" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="graduated">graduated</label></td>
+            <td>:</td>
+            <td>
+              <input
+                type="checkbox"
+                name="type"
+                value="graduated"
+                id="graduated"
+              />
+            </td>
+          </tr>
+        </table>
+
+        <br />
+        <br />
+        <br />
+        <!-- select -->
+
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+          <optgroup label="Swedish Cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+          </optgroup>
+          <optgroup label="German Cars">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+          </optgroup>
+        </select>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <!-- solve btn-1 -->
+        <button style="width: 10%; padding: 0" type="submit">
+          <img
+            style="width: 100%; cursor: pointer"
+            src="./img/btn.jpg"
+            alt="button submit"
+          />
+        </button>
+
+        <!-- solve btn-2 -->
+        <!-- <input type="image" src="./img/btn.jpg" width="10%" alt="submit" /> -->
+      </fieldset>
+    </form>
+  </body>
+</html>
